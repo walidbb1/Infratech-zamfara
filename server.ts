@@ -209,7 +209,7 @@ app.post("/api/ai/chat", async (req, res) => {
     Keep your answers concise, professional, data-driven, and tailored to Zamfara State's 14 LGAs (Gusau, Talata Mafara, Bakura, Zurmi, Kaura Namoda, Maru, Bungudu, Maradun, Shinkafi, Bukkuyum, Gummi, Tsafe, Birnin Magaji, Zurmi).`;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3.5-flash',
+      model: 'gemini-flash-latest',
       contents: [
         { role: 'user', parts: [{ text: `${systemInstruction}\n\nContext about projects & issues: ${JSON.stringify(context || {})}\n\nUser Question: ${message}` }] }
       ]
