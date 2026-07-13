@@ -1,0 +1,7 @@
+{
+  "name": "Infratech Zamfara",
+  "description": "SDG 9 aligned sustainable infrastructure development and public accountability platform for Zamfara State, Nigeria.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
